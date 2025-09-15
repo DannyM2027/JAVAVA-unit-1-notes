@@ -30,6 +30,21 @@ public class Main {
       //ESCAPE: use \ backslash - to include special characters, use \n for line break
       String message = "\n I woke up and said, \"HELLO WORLD\" ";
       System.out.println(message);
+
+      // ARITHMETIC expressions with ops
+      System.out.println(4 + 3);
+      System.out.println(4 - 1);
+      System.out.println(6 * 7);
+      System.out.println(5 / 3); // TRUNCATED!
+      // INteger division results in TRUNCATION, basically throwing away the decimal
+      System.out.println(5.0/3); //double
+      //COMPOUND expressions follow pemdas
+      double result = 2 + (3 * 2 - 6);
+      System.out.println(result);
+      // REMAINDER % op
+      int remain = 23 % 2;
+      System.out.println(remain);
+      System.out.println(628 % 2); // 0 - even
    }
 }
  
