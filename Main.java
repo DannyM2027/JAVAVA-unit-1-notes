@@ -21,6 +21,15 @@ public class Main {
       String greeting = "Hello " + "World";
       System.out.println(greeting);
       // Quotes contain string literals
+
+      // OutPut: difference between .print and .println
+      System.out.print("hi");
+      System.out.println("there");
+      System.out.print("!");
+      // .println displays the message THEN goes to next line
+      //ESCAPE: use \ backslash - to include special characters, use \n for line break
+      String message = "\n I woke up and said, \"HELLO WORLD\" ";
+      System.out.println(message);
    }
 }
  
