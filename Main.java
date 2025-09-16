@@ -45,6 +45,34 @@ public class Main {
       int remain = 23 % 2;
       System.out.println(remain);
       System.out.println(628 % 2); // 0 - even
+
+      // u can set one variable to anothers value
+      int zach_age = 16  ;
+      int danny_age = zach_age;
+      //both variables contain the same value
+
+
+      int x = 15;
+      int y = 21;
+      int z = 2;
+      x = y; // x now stores y value
+      y = y * 2;
+      z = 27;
+      System.out.println(x);
+      System.out.println(y);
+      System.out.println(z);
+
+      // type mismatch error
+      double num1 = 3;
+      double num2 = 3.14;
+      num2 = 2 * num1;
+      System.out.println(num2);
+
+      int points = 0;
+      points = points + 1;
+      points = points - 15;
+      System.out.println(points);
+
    }
 }
  
