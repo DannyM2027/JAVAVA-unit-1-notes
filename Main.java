@@ -73,6 +73,35 @@ public class Main {
       points = points - 15;
       System.out.println(points);
 
+
+      // Casting (Convert) data types
+      int originalValue = 5;
+      double castDouble = (double) originalValue;
+      System.out.println("cast to double: " + castDouble);
+      int castInt = (int) castDouble;
+      System.out.println("cast back to int: " + castInt);
+
+      // examples of casting
+      System.out.println(3/4);
+      System.out.println(3.0/4);
+      System.out.println((double) 3.0/4);
+      System.out.println( (int) 3.0/4 );
+
+
+      int apcs = 13;
+      int juniors = 40;
+      double csPercent = (double) apcs/juniors;
+      System.out.println(csPercent);
+
+      // ROUNDING BY CASTING
+      double positiveNum = 387.67;
+      double negativeNum = -41.35;
+      int nearestPositive = (int) (positiveNum + 0.5);
+      System.out.println(nearestPositive);
+      int nearestNegative = (int) (negativeNum - 0.5);
+      System.out.println(nearestNegative);
+
+
    }
 }
- 
+
