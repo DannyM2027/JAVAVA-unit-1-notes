@@ -101,6 +101,25 @@ public class Main {
       int nearestNegative = (int) (negativeNum - 0.5);
       System.out.println(nearestNegative);
 
+      // COMPAOUND OPERATOTRS( SHORT CUTE )
+      int runs = 0;
+      //  re-assign variable to existing value + 1
+      runs = runs + 1;
+      runs += 1; // shortcut += = = + 1
+      System.out.println("runs: " + runs);
+      // Even shorter short cut adding/sub 1
+      runs++;
+      System.out.println(runs);
+      runs--; // same as runs = runs - 1;
+      // more ex of shortcuts
+      runs = runs * 2;
+      runs *= 2;
+      runs = runs / 2;
+      runs /= 2;
+      runs = runs % 2;
+      runs %= 2;
+      System.out.println("Runs: " + runs);
+
 
    }
 }
